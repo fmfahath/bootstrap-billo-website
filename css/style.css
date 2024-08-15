@@ -122,3 +122,12 @@ section {
 .service .service-img .icon i {
     font-size: 36px;
 }
+
+.btn-about {
+    width: 85px;
+    height: 80px;
+    background: linear-gradient(to left, rgba(50, 185, 238, 1), rgb(7, 76, 226));
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
