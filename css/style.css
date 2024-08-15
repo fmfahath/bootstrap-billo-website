@@ -34,6 +34,13 @@ img {
     box-shadow: 0 12px 120px rgba(0, 0, 0, 0.2);
 }
 
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    background: -webkit-linear-gradient(rgb(23, 175, 235), rgb(9, 81, 238));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 section {
     padding-top: 80px;
     padding-bottom: 80px;
