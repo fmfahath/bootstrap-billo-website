@@ -26,6 +26,10 @@ a {
     font-weight: 8 00;
 }
 
+img {
+    width: 100%;
+}
+
 .navbar {
     box-shadow: 0 12px 120px rgba(0, 0, 0, 0.2);
 }
@@ -80,4 +84,34 @@ section {
 
 .btn-hero {
     background: linear-gradient(to left, rgba(50, 185, 238, 1), rgba(8, 66, 192, 1));
+}
+
+.section-intro .divider {
+    width: 70px;
+    height: 4px;
+    margin: 16px auto;
+    background: linear-gradient(to left, rgba(50, 185, 238, 1), rgba(8, 66, 192, 1));
+}
+
+.service-img {
+    position: relative;
+}
+
+.service .service-img .icon {
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+    background: linear-gradient(to left, rgba(50, 185, 238, 1), rgba(8, 66, 192, 1));
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.service .service-img .icon i {
+    font-size: 36px;
 }
