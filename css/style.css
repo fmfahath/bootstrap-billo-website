@@ -133,6 +133,13 @@ section {
     align-items: center;
 }
 
+.btn-about i {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
 .features .features-icon i {
     background: -webkit-linear-gradient(rgb(23, 175, 235), rgb(9, 81, 238));
     -webkit-background-clip: text;
@@ -181,4 +188,26 @@ section {
     background: transparent;
     color: #fff;
     border-color: #fff;
+}
+
+.footer {
+    background: linear-gradient(to left, rgb(32, 131, 245), rgb(7, 76, 226));
+}
+
+.footer .social-links a {
+    height: 30px;
+    width: 30px;
+    background-color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin: 0 2px;
+}
+
+.footer .social-links a i {
+    font-size: 25px;
+    background: -webkit-linear-gradient(rgb(23, 175, 235), rgb(9, 81, 238));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
