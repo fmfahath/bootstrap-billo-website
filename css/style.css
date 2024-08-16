@@ -75,7 +75,7 @@ section {
 }
 
 .btn {
-    color: white;
+    color: white !important;
     /* font-weight: 500; */
     outline: none;
     border: none;
@@ -163,4 +163,22 @@ section {
 
 .review .review-stars {
     color: orange;
+}
+
+.form-control {
+    background: transparent;
+    border-radius: 0;
+    padding: 10px;
+    color: #fff;
+    border-color: hsla(0, 0%, 100%, 0.5);
+}
+
+.form-control::placeholder {
+    color: hsla(0, 0%, 100%, 0.61);
+}
+
+.form-control:focus {
+    background: transparent;
+    color: #fff;
+    border-color: #fff;
 }
